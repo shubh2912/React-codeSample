@@ -1,0 +1,177 @@
+npm
+Node Package manager
+
+Node=>
+
+Run to application
+Manage the package
+-----------------------
+package.json
+
+Local package
+Global package
+**Help Setup and run the app
+ 
+/**********************
+Step for creating package.json
+*************************/
+> Navigate to the folder using cmd
+    >npm init
+        >Answer all questions
+            > type yes
+
+/**********************
+Step for install package(locally)
+*************************/
+> Navigate to the folder using cmd
+    > npm install zone.js/ npm i <packagename>/ npm i <packagename> --save
+
+
+/**********************
+Step for install package(Globally)
+*************************/
+Window
+> Run cmd as admin
+    > npm i -g create-react-app
+
+Mac
+> Run terminal
+    > sudo npm i -g create-react-app
+
+
+npm i -g @aakashdeveloper/create-node-app
+
+
+/**********************
+Step for create react app
+*************************/
+> Run cmd as admin
+    > npm i -g create-react-app
+
+> Navigate to the folder using cmd
+    > create-react-app firstapp
+        > cd firstapp
+            > npm start 
+            
+
+
+
+/**********************
+Types of Component
+*************************/
+> Functional
+- Light as compare to class Base
+- Less functionlity
+- Cannot handle state
+
+> Class Base
+- Heavy as compare to Functional
+- More functionlity
+- Can handle state
+
+var
+let
+const
+
+
+
+function add(a,b){
+    return a+b
+}
+
+const add  = (a,b) => { return a+b }
+
+
+add(1,2)
+
+
+
+var a = 10
+undefined
+ a>10 ? "hii":"bie"
+"bie"
+ a==10 ? "hii":"bie"
+"hii"
+
+https://www.w3schools.com/jsref/jsref_map.asp
+https://www.w3schools.com/jsref/jsref_indexof.asp
+https://www.w3schools.com/jsref/jsref_filter.asp
+
+
+
+var marks = [50,78,34,89]
+ 
+marks.map((data) => console.log(data))
+
+var ages = [32, 33, 16, 40];
+ages.filter((age) => { return age >= 18 });
+
+
+var mynum = [0,1,2,3,4]
+
+mynum.map((data) => {return data*2}  )
+
+mynum.filter((data) => {return data*2 })
+
+> map return all value with logic
+> Filter only return those for which condition is true
+
+var city = ["London","Delhi", "NewYork",,"Helsinki"]
+undefined
+city.indexOf('Delhi')
+1
+city.indexOf('Helsinki')
+4
+city.indexOf('Mumbai')
+-1
+city.indexOf('Pune')
+-1
+ 
+
+
+
+ function add(a,b){
+     return a+b
+ }
+
+
+ add(1,2)
+
+ /*
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo.git
+git push -u origin master
+*/
+git add .
+git commit -m "added first html"
+git push
+
+
+https://git-scm.com/downloads
+
+npm install react-router-dom
+
+https://www.w3schools.com/bootstrap/
+Grid Basic
+Panels
+buttons
+glyphicon
+navbar
+
+/**********************
+Step for create dummy api
+*************************/
+npm i -g json-server
+json-server --watch db.json --port 8900
+
+
+
+
+var a = 10
+var b = "my age is "
+a+b
+my age is 10
+
+`my age is ${a}`
